@@ -1,6 +1,6 @@
 {
-  "name": "skyrta",
-  "version": "0.1.8",
+  "name": "@etclabscore/skyrta",
+  "version": "0.0.0-development",
   "description": "A wrapper around popular graphing tools (GraphViz, SvgBobRus) to convert text based diagrams to SVG.",
   "main": "src/index.js",
   "scripts": {
@@ -27,8 +27,11 @@
     "graph",
     "flowchart"
   ],
-  "author": "Riaan Hanekom",
-  "license": "MIT",
+  "contributors": [
+    "Riaan Hanekom",
+    "Shane Jonas"
+  ],
+  "license": "Apache-2.0",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "css": "^2.2.4",
@@ -36,9 +39,9 @@
     "which": "^2.0.2"
   },
   "bugs": {
-    "url": "https://github.com/rhanekom/skyrta/issues"
+    "url": "https://github.com/etclabscore/skyrta/issues"
   },
-  "homepage": "https://github.com/rhanekom/skyrta#readme",
+  "homepage": "https://github.com/etclabscore/skyrta#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
